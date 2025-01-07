@@ -1,60 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="bg-dark"> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <div class="container"  id="home">
-       <nav class="navbar navbar-expand-md navbar-dark fs-5">
-            <h3  class="text-light mt-3">
+<body class="bg-dark">
+    <div class="container" id="home">
+        <nav class="navbar navbar-expand-md navbar-dark fs-5">
+            <h3 class="text-light mt-3">
                 My Portfolio
             </h3>
-        <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#toggleMobileMenu"
-        aria-controls="toggleMobileMenu"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="toggleMobileMenu">
-            <ul class="navbar-nav ms-auto text-center">
-                <li>
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="section text-light container mt-5" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="container pt-5" id="aboutme">
+                    <div class="row">
+                        <div class="col-12 col-md-4 text-center mb-4">
+                            <img class="img-fluid rounded-circle" src="img/me.jpg" alt="Jan Agar Barotilla"
+                                width="200px">
+                        </div>
+
+                        <div class="col-12 col-md-8 text-light">
+                            <h2>Hello! I'm <strong>Jan Agar Barotilla</strong></h2>
+                            <p>A first-year Computer Science student at <span class="silliman-red">Silliman
+                                    University</span>.</p>
+
+                            <h5>Languages and Tools:</h5>
+                            <ul>
+                                <img class="p-1" width="50px" height="auto" src="img/java.png">
+                                <img class="p-1" width="50px" height="auto" src="img/cpp.png">
+                                <img class="p-1" width="50px" height="auto" src="img/c.png">
+                                <img class="p-1" width="50px" height="auto" src="img/html.png">
+                                <img class="p-1" width="50px" height="auto" src="img/css.png">
+                                <img class="p-1" width="50px" height="auto" src="img/js.png">
+                                <img class="p-1" width="50px" height="auto" src="img/php.png">
+                                <img class="p-1" width="50px" height="auto" src="img/bootstrap.png">
+                                <img class="p-1" width="50px" height="auto" src="img/sql.png">
+                                <img class="p-1" width="50px" height="auto" src="img/sqli.png">
+                                <img class="p-1" width="50px" height="auto" src="img/metasploit.png">
+                                <img class="p-1" width="50px" height="auto" src="img/github.png">
+                            </ul>
+
+                            <h5>Interests:</h5>
+                            <ul>
+                                <li>Web Development</li>
+                                <li>Penetration Testing</li>
+                                <li>Open Source Contribution</li>
+                            </ul>
+
+                            <p>I'm passionate about learning and constantly improving my skills to contribute to the
+                                tech world.</p>
+
+                            <p>Feel free to connect with me on my <a href="https://www.facebook.com/y0baka/" target="_blank">Facebook</a> or explore my <a
+                                    href="#projects">projects</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-       </nav>
     </div>
-    
-    <div class="text-center container pt-5 section">
-        <img class="me rounded-circle mx-auto mx-auto d-block" src="img/me.jpg" width="auto" height="190px">
-            <h1 class="pt-5 test text-light">
-                Jan Agar Barotilla | Computer Science - 1 <br>
-            </h1>
-            <h1 class="row">
-                <h5 class="text-danger">Silliman University</h5>
-            </h1>
+
+    <div class="container proj" id="projects">
+        <h1 class="text-light text-center">My Projects</h1>
+        <div class="pt-5">
+            <div class="ratio ratio-16x9 pt-5">
+                <video autoplay muted loop>
+                    <source src="vid/acsat.mp4" type="video/mp4">
+                </video>
+                <h6 class="text-light text-center admission">Online Admission System</h6>
+            </div>
+            <small class="text-light">Tools and Languages Used: <span style="font-weight: bold;">HTML, CSS, PHP,
+                    MYSQL</span> </small>
+        </div>
+        <div class="pt-5">
+            <div class="ratio ratio-16x9 pt-5">
+                <video autoplay muted loop>
+                    <source src="vid/su.mp4" type="video/mp4">
+                </video>
+                <h6 class="text-light text-center admission">Login Page (CCS 1 Group Project)</h6>
+            </div>
+        </div>
+        <p class="text-light"><span class="text-danger">Angelique So</span> - Front-end/Desinger/Documentation, <span
+                class="text-danger">Kirby Camasin</span> - Desinger, <span class="text-danger">Jan Agar Barotilla</span>
+            - Back-end Developer </p>
+        <small class="text-light">Tools and Languages Used: <span style="font-weight: bold;">HTML, CSS, JS, PHP</span>
+        </small>
     </div>
- 
 
+    <footer class="bg-dark text-light pt-4">
+        <div class="container text-center">
+            <p>© 2025 Jan Agar Barotilla. All rights reserved.</p>
+        </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
