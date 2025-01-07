@@ -1,21 +1,46 @@
- .section {
+.section {
     height: 100vh;
+}
+
+.silliman-red {
+    color: #D50032;
+}
+footer {
+    margin-top: auto;
 }
 @media (max-width: 320px) {
     .test {
         font-size: 1rem;
     }
+    .lang {
+        font-size: 1rem;
+    }
+    .ako {
+        display: none;
+    }
+    .proj {
+        margin-top: 290px;
+    }
+     
 }
 
 @media (min-width: 321px) and (max-width: 426px) {
     .test {
         font-size: 1rem;
-
+    }
+    .ako {
+        display: none;
+    }
+    .proj {
+        margin-top: 280px;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
     .test {
+        font-size: 22px;
+    }
+    .lang {
         font-size: 22px;
     }
   
@@ -24,6 +49,12 @@
 @media (min-width: 1024px) and (max-width: 2560px) {
     .test {
         font-size: 27.8px;
+    }
+    .leng {
+        font-size: 22px;
+    }
+    .admission {
+        font-size: 25px;
     }
  
 }
